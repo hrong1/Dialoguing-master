@@ -53,6 +53,7 @@ class Talking extends Phaser.Scene {
         this.minerva = this.add.sprite(this.OFFSCREEN_X, this.DBOX_Y+8, 'minerva').setOrigin(0, 1)
         this.neptune = this.add.sprite(this.OFFSCREEN_X, this.DBOX_Y+8, 'neptune').setOrigin(0, 1)
         this.jove = this.add.sprite(this.OFFSCREEN_X, this.DBOX_Y+8, 'jove').setOrigin(0, 1)
+        this.character = this.add.sprite(this.OFFSCREEN_X, this.DBOX_Y+8, 'character').setOrigin(0, 1)
 
         // input
         cursors = this.input.keyboard.createCursorKeys()
